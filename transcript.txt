@@ -1,0 +1,87 @@
+============================================================
+   AGENTIC CERTIFICATE EVALUATOR (with Real-time Interrupt)
+============================================================
+
+[!] You can interrupt the agent at any time by typing!
+[!] Just start typing while the agent is thinking.
+
+Available files:
+  [0] Bachelor's Final Transcript.pdf
+  [1] certificate.png
+
+Enter the index of the certificate to evaluate (or 'all' for all): all
+Loading document: Bachelor's Final Transcript.pdf...
+Loading document: certificate.png...
+
+------------------------------------------------------------
+Certificate Loaded. Type your message (or 'q' to quit).
+You can interrupt the agent anytime by typing while it thinks!
+------------------------------------------------------------
+
+User: evaluate certificate.png, The minimum GPA must be 3.7 and it must be a Computer Science degree.
+Agent: [Thinking...] (Type to interrupt)
+Agent: I have evaluated the certificate **certificate.png** based on your criteria.
+
+### **Extraction Results for certificate.png:**
+*   **Student Name:** Ahmed Mahmoud Hossam Eldin Mahmoud Ibrahim
+*   **University:** Cairo University
+*   **Degree:** Bachelor of Petroleum & Petrochemical Eng. (Credit Hours System)
+*   **GPA:** 3.490
+*   **Graduation Date:** January 2015
+
+### **Evaluation Against Criteria:**
+*   **Required Degree:** Computer Science
+*   **Minimum GPA:** 3.7
+
+**Final Result: FAIL**
+
+**Reasons:**
+1.  **GPA Requirement:** The student's GPA of **3.49** is below the required **3.7**.
+2.  **Degree Requirement:** The degree is in **Petroleum & Petrochemical Engineering**, which does not match the required **Computer Science** degree.
+
+I also see you provided **Bachelor's Final Transcript.pdf**. Would you like me to evaluate that one as well?
+User: Wait, what if we require a 3.4 GPA instead, and the degree must be any engineering degree?
+Agent: [Thinking...] (Type to interrupt)
+Agent: I have re-evaluated **certificate.png** with the updated criteria.
+
+### **Updated Evaluation for certificate.png:**
+*   **Required Degree:** Any engineering degree
+*   **Minimum GPA:** 3.4
+
+**Final Result: PASS**
+
+**Reasons:**
+1.  **GPA Requirement:** The student's GPA of **3.49** meets the minimum requirement of **3.4**.
+2.  **Degree Requirement:** The degree **"Bachelor of Petroleum & Petrochemical Eng."** is an engineering degree, so it meets the requirement.
+
+Would you like me to proceed with evaluating the other file, **Bachelor's Final Transcript.pdf**, using these same criteria?
+User: Okay, keep it at 3.7 and evaluate both Certificates                
+Agent: [Thinking...] (Type to interrupt)
+Interrupt: make it 3.8 not 3.7
+
+==================================================
+[CLASSIFYING] - Detecting intent...
+[AGENT PAUSED] - Applying your correction...
+==================================================
+
+Correction applied: 'make it 3.8 not 3.7'
+Continuing previous task with correction...
+
+Agent: [Thinking...] (Type to interrupt)
+Agent: I have evaluated both certificates with the updated criteria: **Minimum GPA 3.8** and **Any Engineering Degree**.
+
+### **1. Evaluation for certificate.png**
+*   **Student:** Ahmed Mahmoud Hossam Eldin Mahmoud Ibrahim
+*   **GPA:** 3.49
+*   **Degree:** Bachelor of Petroleum & Petrochemical Eng.
+*   **Result: FAIL**
+*   **Reason:** The GPA of **3.49** is below the required **3.8**, although the degree requirement was met.
+
+### **2. Evaluation for Bachelor's Final Transcript.pdf**
+*   **Student:** MOHANNAD HANY SALAH ABDELFATAH
+*   **GPA:** 3.85
+*   **Degree:** BACHELOR OF ENGINEERING (ELECTRICAL - MECHATRONICS)
+*   **Result: PASS**
+*   **Reason:** The GPA of **3.85** meets the minimum **3.8**, and the degree is an engineering degree.
+
+Let me know if you'd like to adjust the criteria again!
