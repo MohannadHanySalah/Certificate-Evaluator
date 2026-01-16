@@ -157,6 +157,16 @@ div[data-testid="stSidebar"] .stButton:first-child button {
     text-align: center !important;
 }
 
+/* Hide Streamlit anchor links (URL icons) */
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    display: none !important;
+}
+
 /* Chat Messages */
 [data-testid="stChatMessage"] {
     background-color: transparent !important;
@@ -204,4 +214,9 @@ footer {
 
 header {
     background: transparent !important;
+}
+
+.stAppDeployButton,
+[data-testid="stAppDeployButton"] {
+    display: none !important;
 }

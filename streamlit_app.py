@@ -142,7 +142,6 @@ if not st.session_state.messages:
     st.markdown("""
         <div style='text-align: center;'>
             <h1 style='font-size: 4rem; font-weight: 600; background: linear-gradient(90deg, #4285f4, #91c4f9); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'>Hello, User</h1>
-            <p style='color: #b4b4b4; font-size: 1.5rem; margin-top: 1rem;'>This is you Certificate Evaulation Agent</p>
             <p style='color: #b4b4b4; font-size: 1.5rem; margin-top: 1rem;'>How can I help you evaluate your certificates today?</p>
         </div>
     """, unsafe_allow_html=True)
