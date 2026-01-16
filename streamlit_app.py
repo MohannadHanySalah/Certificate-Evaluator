@@ -158,8 +158,6 @@ if prompt := st.chat_input("Ask Certificate Agent..."):
     st.rerun()
 
 # Processing Logic (Triggered after rerun if prompt exists)
-# In Streamlit, it's often better to handle the agent call within the prompt block
-# but since ST reruns the whole script, we check if the last message is from user.
 
 if st.session_state.messages and st.session_state.messages[-1]["role"] == "user":
     user_prompt = st.session_state.messages[-1]["content"]
