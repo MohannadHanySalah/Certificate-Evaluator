@@ -16,13 +16,13 @@ The system requires a Google API Key to access Gemini models. Create a `.env` fi
 GOOGLE_API_KEY=your_gemini_api_key_here
 ```
 
-### 3. Execution
-To start the interactive agent:
+### 3. Execution (AI Agent Only)
+To start the interactive agent only :
 ```bash
 python main.py
 ```
 
-### 3. UI
+### 3. Agent & UI
 To start the Agent and the UI:
 ```bash
 streamlit run streamlit_app.py
