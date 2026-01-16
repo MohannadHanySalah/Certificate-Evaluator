@@ -22,6 +22,12 @@ To start the interactive agent:
 python main.py
 ```
 
+### 3. UI
+To start the Agent and the UI:
+```bash
+streamlit run streamlit_app.py
+```
+
 ---
 
 ## Technical Architecture
